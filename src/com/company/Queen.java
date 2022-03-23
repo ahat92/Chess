@@ -1,4 +1,17 @@
 package com.company;
 
-public class Queen {
+import java.util.ArrayList;
+
+public class Queen extends Piece{
+    public Queen(Board board, char color) {
+        super(board, color,'q');
+    }
+
+    public ArrayList<Move> getMoves() {
+        return null;
+    }
+
+    public boolean isLegal(Move move) {
+        return false;
+    }
 }
